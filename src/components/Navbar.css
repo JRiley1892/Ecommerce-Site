@@ -1,0 +1,31 @@
+.navbar {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.Links a {
+  font-family: "Courier New", Courier, monospace;
+  color: #febd69;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 25px;
+  transition: transform 0.4s ease;
+}
+
+.Links a:hover {
+  color: #febd69;
+  transform: scale(1.1);
+}
